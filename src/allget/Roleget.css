@@ -1,14 +1,4 @@
-/* Container Styling */
-/* .container {
-  width: 100%;
-  overflow-x: auto;
-  padding: 20px;
-} */
 
-/* Table Styling */
-*{
- 
-}
 table {
   width: 100%;
   border-collapse: collapse;
@@ -18,8 +8,6 @@ table {
   overflow: hidden;
   font-family: cursive;
 }
-
-/* Table Header */
 .thead-role {
   background-color: #007bff;
   color: white;
@@ -32,28 +20,18 @@ table {
   border-bottom: 1px solid #ddd;
 }
 
-/* Button Styling */
 button {
-  /* background-color: #007bff; */
   color: white;
   border: none;
   padding: 6px 12px;
   cursor: pointer;
   border-radius: 4px;
 }
-
-button:hover {
-  /* background-color: #0056b3; */
-}
-
-/* // toastify react */
 .toastBody {
   font-family: "Atlas Grotesk Web", Arial, Helvetica, sans-serif;
-  /* color: #10171D; #10171D */
   font-size: 1.7rem;
 }
 
-/* Responsive Table */
 @media (max-width: 768px) {
   table {
     display: block;

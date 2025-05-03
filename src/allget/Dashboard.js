@@ -27,7 +27,6 @@ export default function Navbar() {
               !auth ?
                 <ul className="navbar-nav">
                   <li>
-                    <Link className="nav-link active fs-5" aria-current="page" to="/">Home</Link>
                     <Link className="navbar-brand fs-3 font-8" to="/login">Login</Link>
                   </li>
 

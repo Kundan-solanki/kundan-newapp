@@ -1,14 +1,12 @@
-/* General Container for Centering */
 .login-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f7fc; /* Light background */
+    background-color: #f4f7fc; 
     padding: 20px;
   }
   
-  /* Login Box */
   .login-box {
     width: 100%;
     max-width: 400px;
@@ -21,7 +19,6 @@
     align-items: center;
   }
   
-  /* Title Styling */
   .login-title {
     font-size: 28px;
     color: #333;
@@ -30,9 +27,7 @@
     text-align: center;
   }
   
-  /* Input Fields and Labels */
   .form-group {
-    /* width: 100%; */
     margin-bottom: 20px;
   }
   
@@ -56,7 +51,7 @@
     border-radius: 6px;
     border: 1px solid #ccc;
     font-size: 16px;
-    background-color: #f0faff; /* Light blue background */
+    background-color: #f0faff; 
     transition: border-color 0.3s ease-in-out;
   }
   
@@ -67,12 +62,10 @@
 p{
     margin-bottom: 1rem;
     font-family: cursive;
-    /* font-size: x-large; */
     margin-top: 0;
 
 }
   
-  /* Forgot Password Link */
   .forgot-password {
     font-family: 'Cursive';
     text-align: center;
@@ -89,9 +82,7 @@ p{
     text-decoration: underline;
   }
   
-  /* Role Dropdown */
   .form-select {
-    /* width: 100%; */
     padding: 12px;
     border-radius: 6px;
     border: 1px solid #ccc;
@@ -105,7 +96,6 @@ p{
     outline: none;
   }
   
-  /* Submit Button */
   .login-btn {
     background-color: #007bff;
     color: white;
