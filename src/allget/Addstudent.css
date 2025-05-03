@@ -1,0 +1,102 @@
+/* Basic Layout and Centering */
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f7fc;
+  font-family: Arial, sans-serif;
+}
+ #container1 {
+  
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  top : 0;
+  padding: 4%;
+} 
+#title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#description {
+  font-size: 1.1rem;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling Labels */
+label {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  font-size: 1rem;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+/* Button Styling */
+button {
+  font-size: 1rem;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit {
+  background-color: #007bff;
+  color: white;
+}
+
+#submit:hover {
+  /* background-color: #45a049; */
+}
+
+#edit {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+#edit:hover {
+  background-color: #e6953b;
+}
+
+/* Responsive Design */
+@med

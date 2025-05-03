@@ -1,0 +1,125 @@
+/* General Container for Centering */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fc; /* Light background */
+    padding: 20px;
+  }
+  
+  /* Login Box */
+  .login-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Title Styling */
+  .login-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Serif', sans-serif;
+    text-align: center;
+  }
+  
+  /* Input Fields and Labels */
+  .form-group {
+    /* width: 100%; */
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+  }
+  .input-first{
+    width: 100%;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f0faff; /* Light blue background */
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .form-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+p{
+    margin-bottom: 1rem;
+    font-family: cursive;
+    /* font-size: x-large; */
+    margin-top: 0;
+
+}
+  
+  /* Forgot Password Link */
+  .forgot-password {
+    font-family: 'Cursive';
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Role Dropdown */
+  .form-select {
+    /* width: 100%; */
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f0faff;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .form-select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Submit Button */
+  .login-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  

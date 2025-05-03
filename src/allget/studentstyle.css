@@ -1,0 +1,98 @@
+/* General Styling for Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading Styling */
+.h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table Header Styling */
+.thead-stud {
+    background-color: #007bff;
+    color: white;
+}
+
+.stud-th {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+/* Table Body Styling */
+.tbody-stud tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.stud-tr {
+    text-align: left;
+}
+
+.stud-tr:hover {
+    background-color: #ddd;
+}
+
+.stud-th {
+    padding: 10px;
+}
+
+/* Link Styling in Table */
+.stud-th a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.stud-th a:hover {
+    color: #45a049;
+}
+
+/* Styling for Delete and Edit Columns */
+.stud-th:last-child, .stud-th:nth-child(7) {
+    text-align: center;
+    width: 120px;
+}
+
+.stud-th:last-child {
+    color: red;
+    font-weight: bold;
+}
+
+.stud-th:nth-child(7) {
+    color: blue;
+}
+
+/* Button Styling */
+.stud-th a {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* .stud-th a/ */
+
+.stud-th:last-child {
+    color: red;
+    cursor: pointer;
+}
+
+.stud-th:last-child:hover {
+    color: darkred;
+}

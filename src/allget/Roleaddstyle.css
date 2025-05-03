@@ -1,0 +1,59 @@
+/* Form Container */
+.addrole {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 60px;
+  border: 2px solid black;
+    padding: 76px;
+}
+
+/* Headings */
+.addrole-head {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Input Fields */
+.addrole-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+/* Button Styling */
+.addrole-edite {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.addrole-edite:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .addrole {
+    padding: 15px;
+  }
+  .addrole-input {
+    font-size: 12px;
+  }
+  .addrole-edite {
+    font-size: 14px;
+  }
+}
